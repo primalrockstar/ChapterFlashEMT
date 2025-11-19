@@ -94,7 +94,7 @@ function StudyPageContent() {
     },
     {
       mode: 'random-250' as StudyMode,
-      title: 'Test Mode',
+      title: 'Random 250',
       description: 'Intensive 250-card session drawn randomly from all chapters',
       duration: '120+ minutes',
       cardCount: '250 cards',

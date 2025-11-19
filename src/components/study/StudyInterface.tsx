@@ -146,6 +146,8 @@ export function StudyInterface({ cards, config, onSessionEnd, onExit }: StudyInt
       case 'quick-drill': return <Brain className="h-4 w-4" />
       case 'deep-session': return <Target className="h-4 w-4" />
       case 'exam-mimic': return <TrendingUp className="h-4 w-4" />
+      case 'random-250': return <Brain className="h-4 w-4" />
+      case 'custom-drill': return <Settings className="h-4 w-4" />
     }
   }
 
@@ -154,6 +156,8 @@ export function StudyInterface({ cards, config, onSessionEnd, onExit }: StudyInt
       case 'quick-drill': return 'text-cyan-400'
       case 'deep-session': return 'text-blue-400'
       case 'exam-mimic': return 'text-purple-400'
+      case 'random-250': return 'text-red-400'
+      case 'custom-drill': return 'text-emerald-400'
     }
   }
 
