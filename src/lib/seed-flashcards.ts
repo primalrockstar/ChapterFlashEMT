@@ -19,8 +19,8 @@ export async function seedFlashcards(flashcards: FlashcardSeedData[]) {
   
   try {
     // First, create categories and chapters
-    const categories = new Map<string, string>()
-    const chapters = new Map<number, { title: string; id: string }>()
+    const categories = new Map<string, number>()
+    const chapters = new Map<number, { title: string; id: number }>()
     
     console.log('📚 Creating categories and chapters...')
     
