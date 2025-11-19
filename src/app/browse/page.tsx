@@ -34,84 +34,115 @@ interface Chapter {
   color: string
 }
 
-// All 45 EMT-B chapters with original titles - legally safe from copyright
+// All 45 EMT-B chapters + Bonus content
 const chapters: Chapter[] = [
-  // Foundation Chapters
-  { id: 1, title: "Emergency Medical Services Overview", description: "Introduction to EMS systems, history, roles, and professional responsibilities", cardCount: 15, category: "Foundation", difficulty: "Basic", estimatedTime: "10 min", icon: Truck, color: "from-blue-500 to-cyan-500" },
-  { id: 2, title: "Personal Safety and Professional Wellness", description: "Personal protection, wellness strategies, stress management, and scene safety", cardCount: 15, category: "Safety", difficulty: "Basic", estimatedTime: "10 min", icon: Users, color: "from-green-500 to-emerald-500" },
-  { id: 3, title: "Healthcare Law and Professional Ethics", description: "Scope of practice, consent, confidentiality, and legal considerations", cardCount: 15, category: "Legal", difficulty: "Intermediate", estimatedTime: "12 min", icon: BookOpen, color: "from-purple-500 to-violet-500" },
-  { id: 4, title: "Emergency Communication Systems", description: "Radio communications, verbal reports, and patient care documentation", cardCount: 15, category: "Operations", difficulty: "Basic", estimatedTime: "10 min", icon: Target, color: "from-amber-500 to-orange-500" },
-  { id: 5, title: "Healthcare Terminology Fundamentals", description: "Medical terminology, abbreviations, and healthcare language basics", cardCount: 15, category: "Foundation", difficulty: "Basic", estimatedTime: "12 min", icon: BookOpen, color: "from-indigo-500 to-purple-500" },
+  // Module 1 · Foundations of EMS Practice
+  { id: 1, title: "EMS System Fundamentals", description: "Essential EMS systems, professional responsibilities, and communication principles.", cardCount: 15, category: "Foundations of EMS Practice", difficulty: "Basic", estimatedTime: "10 min", icon: Truck, color: "from-blue-500 to-cyan-500" },
+  { id: 2, title: "Responder Safety & Resilience", description: "Personal protection, wellness strategies, stress management, and scene safety.", cardCount: 15, category: "Foundations of EMS Practice", difficulty: "Basic", estimatedTime: "10 min", icon: Users, color: "from-green-500 to-emerald-500" },
+  { id: 3, title: "EMS Law & Ethical Practice", description: "Scope of practice, consent, confidentiality, and legal considerations.", cardCount: 15, category: "Foundations of EMS Practice", difficulty: "Intermediate", estimatedTime: "12 min", icon: BookOpen, color: "from-purple-500 to-violet-500" },
+  { id: 4, title: "Emergency Communication Protocols", description: "Radio communications, verbal reports, and patient care documentation.", cardCount: 15, category: "Foundations of EMS Practice", difficulty: "Basic", estimatedTime: "10 min", icon: Target, color: "from-amber-500 to-orange-500" },
 
-  // Anatomy & Physiology
-  { id: 6, title: "Human Anatomy and Physiology", description: "Body structure, function, and organ systems overview", cardCount: 15, category: "Anatomy", difficulty: "Intermediate", estimatedTime: "15 min", icon: Brain, color: "from-pink-500 to-rose-500" },
-  { id: 7, title: "Patient Development Across Age Groups", description: "Physical and psychological development considerations across lifespans", cardCount: 15, category: "Development", difficulty: "Basic", estimatedTime: "10 min", icon: Heart, color: "from-teal-500 to-cyan-500" },
+  // Module 2 · Clinical Foundations
+  { id: 5, title: "Medical Language for Responders", description: "Medical terminology, anatomy, patient movement, and interdisciplinary teamwork.", cardCount: 15, category: "Clinical Foundations", difficulty: "Basic", estimatedTime: "12 min", icon: BookOpen, color: "from-indigo-500 to-purple-500" },
+  { id: 6, title: "Anatomy for Emergency Care", description: "Body structure, function, and organ systems overview.", cardCount: 15, category: "Clinical Foundations", difficulty: "Intermediate", estimatedTime: "15 min", icon: Brain, color: "from-pink-500 to-rose-500" },
+  { id: 7, title: "Developmental Considerations in EMS", description: "Physical and psychological development considerations across lifespans.", cardCount: 15, category: "Clinical Foundations", difficulty: "Basic", estimatedTime: "10 min", icon: Heart, color: "from-teal-500 to-cyan-500" },
+  { id: 8, title: "Patient Movement & Handling", description: "Safe lifting techniques and patient transfer protocols.", cardCount: 15, category: "Clinical Foundations", difficulty: "Basic", estimatedTime: "10 min", icon: Users, color: "from-emerald-500 to-teal-500" },
+  { id: 9, title: "Interprofessional EMS Teams", description: "Team dynamics and interdisciplinary collaboration.", cardCount: 15, category: "Clinical Foundations", difficulty: "Basic", estimatedTime: "8 min", icon: Users, color: "from-orange-500 to-red-500" },
 
-  // Assessment & Documentation
-  { id: 8, title: "Clinical Patient Evaluation", description: "Systematic patient assessment techniques and clinical decision making", cardCount: 15, category: "Assessment", difficulty: "Intermediate", estimatedTime: "15 min", icon: Stethoscope, color: "from-emerald-500 to-teal-500" },
-  { id: 9, title: "Emergency Response Communications", description: "Field communication protocols and emergency response coordination", cardCount: 15, category: "Operations", difficulty: "Basic", estimatedTime: "8 min", icon: Target, color: "from-orange-500 to-red-500" },
-  { id: 10, title: "Medical Record Documentation", description: "Patient care reporting and legal documentation requirements", cardCount: 15, category: "Documentation", difficulty: "Basic", estimatedTime: "10 min", icon: BookOpen, color: "from-slate-500 to-gray-500" },
+  // Module 3 · Patient Assessment Mastery
+  { id: 10, title: "Comprehensive Patient Evaluation", description: "Full-spectrum primary, secondary, and ongoing assessments.", cardCount: 15, category: "Patient Assessment Mastery", difficulty: "Intermediate", estimatedTime: "15 min", icon: Stethoscope, color: "from-slate-500 to-gray-500" },
 
-  // Pharmacology
-  { id: 11, title: "Basic Pharmacology Principles", description: "Drug actions, administration routes, and medication safety", cardCount: 15, category: "Pharmacology", difficulty: "Intermediate", estimatedTime: "12 min", icon: Heart, color: "from-red-500 to-pink-500" },
-  { id: 12, title: "Emergency Drug Administration", description: "Common emergency medications and administration protocols", cardCount: 15, category: "Pharmacology", difficulty: "Advanced", estimatedTime: "15 min", icon: Heart, color: "from-rose-500 to-red-500" },
+  // Module 4 · Airway & Ventilatory Management
+  { id: 11, title: "Advanced Airway Interventions", description: "Airway interventions, oxygenation strategies, and ventilation support.", cardCount: 15, category: "Airway & Ventilatory Management", difficulty: "Advanced", estimatedTime: "15 min", icon: Brain, color: "from-blue-600 to-indigo-600" },
 
-  // Basic Life Support
-  { id: 13, title: "Basic Life Support Techniques", description: "CPR, AED use, and fundamental resuscitation skills", cardCount: 15, category: "BLS", difficulty: "Basic", estimatedTime: "12 min", icon: Heart, color: "from-red-600 to-orange-600" },
-  { id: 14, title: "Airway Control and Management", description: "Airway assessment, opening techniques, and airway devices", cardCount: 15, category: "Airway", difficulty: "Intermediate", estimatedTime: "15 min", icon: Brain, color: "from-blue-600 to-indigo-600" },
-  { id: 15, title: "Breathing Support and Ventilation", description: "Respiratory assessment and artificial ventilation techniques", cardCount: 15, category: "Respiratory", difficulty: "Intermediate", estimatedTime: "15 min", icon: Brain, color: "from-cyan-600 to-blue-600" },
+  // Module 5 · Pharmacology for EMT-B
+  { id: 12, title: "Medication Administration Standards", description: "Medication profiles, administration safety, and dosage considerations.", cardCount: 15, category: "Pharmacology for EMT-B", difficulty: "Advanced", estimatedTime: "15 min", icon: Heart, color: "from-red-500 to-pink-500" },
 
-  // Medical Emergencies
-  { id: 16, title: "Heart and Circulation Emergencies", description: "Cardiac conditions, chest pain evaluation, and circulation problems", cardCount: 15, category: "Cardiac", difficulty: "Intermediate", estimatedTime: "18 min", icon: Heart, color: "from-red-500 to-rose-500" },
-  { id: 17, title: "Breathing and Lung Emergencies", description: "Respiratory distress, lung conditions, and breathing difficulties", cardCount: 15, category: "Respiratory", difficulty: "Intermediate", estimatedTime: "16 min", icon: Brain, color: "from-blue-500 to-cyan-500" },
-  { id: 18, title: "Skin and Surface Wound Care", description: "Soft tissue injuries, wound assessment, and bleeding control", cardCount: 15, category: "Trauma", difficulty: "Basic", estimatedTime: "12 min", icon: Target, color: "from-orange-500 to-amber-500" },
-  { id: 19, title: "Burn Injury Management", description: "Thermal, chemical, and electrical burn assessment and care", cardCount: 15, category: "Trauma", difficulty: "Intermediate", estimatedTime: "14 min", icon: Target, color: "from-red-500 to-orange-500" },
-  { id: 20, title: "Bone and Joint Injury Care", description: "Fractures, dislocations, and musculoskeletal trauma management", cardCount: 15, category: "Trauma", difficulty: "Intermediate", estimatedTime: "16 min", icon: Target, color: "from-purple-500 to-pink-500" },
+  // Module 6 · Shock & Circulatory Management
+  { id: 13, title: "Shock Recognition & Management", description: "Recognising and managing perfusion emergencies.", cardCount: 15, category: "Shock & Circulatory Management", difficulty: "Advanced", estimatedTime: "15 min", icon: Heart, color: "from-rose-500 to-red-500" },
+  { id: 14, title: "BLS Life Support Protocols", description: "Life support integration and resuscitation protocols.", cardCount: 15, category: "Shock & Circulatory Management", difficulty: "Basic", estimatedTime: "12 min", icon: Heart, color: "from-red-600 to-orange-600" },
 
-  // Special Medical Conditions
-  { id: 21, title: "Poisoning and Overdose Response", description: "Toxic exposures, poisoning recognition, and overdose management", cardCount: 15, category: "Toxicology", difficulty: "Advanced", estimatedTime: "15 min", icon: Heart, color: "from-yellow-500 to-orange-500" },
-  { id: 22, title: "Mental Health Crisis Intervention", description: "Behavioral emergencies, psychiatric conditions, and crisis management", cardCount: 15, category: "Behavioral", difficulty: "Intermediate", estimatedTime: "14 min", icon: Brain, color: "from-indigo-500 to-purple-500" },
-  { id: 23, title: "Women's Health Emergencies", description: "Gynecological conditions and women's health emergency care", cardCount: 15, category: "Women's Health", difficulty: "Intermediate", estimatedTime: "12 min", icon: Heart, color: "from-pink-500 to-purple-500" },
-  { id: 24, title: "Childbirth and Newborn Care", description: "Emergency delivery procedures and immediate newborn care", cardCount: 15, category: "Obstetrics", difficulty: "Advanced", estimatedTime: "18 min", icon: Heart, color: "from-rose-500 to-pink-500" },
-  { id: 25, title: "Infant Emergency Care", description: "Neonatal assessment, resuscitation, and specialized infant care", cardCount: 15, category: "Neonatal", difficulty: "Advanced", estimatedTime: "16 min", icon: Heart, color: "from-blue-400 to-cyan-400" },
+  // Module 7 · Medical Emergency Response
+  { id: 15, title: "Medical Crisis Assessment", description: "Assessment and management of general medical emergencies.", cardCount: 15, category: "Medical Emergency Response", difficulty: "Intermediate", estimatedTime: "15 min", icon: Stethoscope, color: "from-cyan-600 to-blue-600" },
+  { id: 16, title: "Respiratory Emergency Protocols", description: "Management of respiratory distress and failure.", cardCount: 15, category: "Medical Emergency Response", difficulty: "Intermediate", estimatedTime: "15 min", icon: Brain, color: "from-blue-500 to-cyan-500" },
+  { id: 17, title: "Cardiovascular Emergency Management", description: "Management of cardiac conditions and emergencies.", cardCount: 15, category: "Medical Emergency Response", difficulty: "Intermediate", estimatedTime: "18 min", icon: Heart, color: "from-red-500 to-rose-500" },
 
-  // Age-Specific Care
-  { id: 26, title: "Child Patient Care", description: "Pediatric assessment, age-specific considerations, and family interaction", cardCount: 15, category: "Pediatric", difficulty: "Intermediate", estimatedTime: "15 min", icon: Heart, color: "from-green-400 to-emerald-400" },
-  { id: 27, title: "Elderly Patient Considerations", description: "Geriatric assessment, age-related changes, and special considerations", cardCount: 15, category: "Geriatric", difficulty: "Intermediate", estimatedTime: "14 min", icon: Users, color: "from-slate-400 to-gray-400" },
+  // Module 8 · Neurologic & Systemic Emergencies
+  { id: 18, title: "Neurological Crisis Intervention", description: "Critical neurology assessment and management.", cardCount: 15, category: "Neurologic & Systemic Emergencies", difficulty: "Advanced", estimatedTime: "16 min", icon: Brain, color: "from-purple-500 to-pink-500" },
+  { id: 19, title: "Abdominal Emergency Protocols", description: "Assessment and care for abdominal emergencies.", cardCount: 15, category: "Neurologic & Systemic Emergencies", difficulty: "Intermediate", estimatedTime: "14 min", icon: Target, color: "from-orange-500 to-amber-500" },
+  { id: 20, title: "Metabolic & Hematologic Emergencies", description: "Diabetic, metabolic, and blood-related emergencies.", cardCount: 15, category: "Neurologic & Systemic Emergencies", difficulty: "Advanced", estimatedTime: "15 min", icon: Heart, color: "from-red-700 to-rose-700" },
 
-  // Trauma Specialties
-  { id: 28, title: "Head and Spinal Injury Management", description: "Neurological trauma assessment and spinal immobilization techniques", cardCount: 15, category: "Neuro Trauma", difficulty: "Advanced", estimatedTime: "20 min", icon: Brain, color: "from-red-600 to-rose-600" },
-  { id: 29, title: "Chest Injury Assessment", description: "Thoracic trauma recognition and emergency chest injury management", cardCount: 15, category: "Chest Trauma", difficulty: "Advanced", estimatedTime: "18 min", icon: Target, color: "from-blue-600 to-indigo-600" },
-  { id: 30, title: "Abdominal Injury Evaluation", description: "Abdominal trauma assessment and emergency care protocols", cardCount: 15, category: "Abdominal Trauma", difficulty: "Advanced", estimatedTime: "16 min", icon: Target, color: "from-purple-600 to-violet-600" },
-  { id: 31, title: "Bone Fracture and Dislocation Care", description: "Orthopedic injury recognition, splinting, and immobilization", cardCount: 15, category: "Orthopedic", difficulty: "Intermediate", estimatedTime: "14 min", icon: Target, color: "from-amber-600 to-orange-600" },
+  // Module 9 · Specialized Emergency Care
+  { id: 21, title: "Allergic & Anaphylactic Response", description: "Recognition and treatment of allergic reactions.", cardCount: 15, category: "Specialized Emergency Care", difficulty: "Advanced", estimatedTime: "14 min", icon: Target, color: "from-yellow-500 to-orange-500" },
+  { id: 22, title: "Toxicological Emergencies", description: "Management of poisoning and overdose.", cardCount: 15, category: "Specialized Emergency Care", difficulty: "Advanced", estimatedTime: "15 min", icon: Target, color: "from-orange-700 to-red-700" },
+  { id: 23, title: "Behavioral Crisis Protocols", description: "Management of behavioral and psychiatric emergencies.", cardCount: 15, category: "Specialized Emergency Care", difficulty: "Intermediate", estimatedTime: "14 min", icon: Brain, color: "from-indigo-500 to-purple-500" },
+  { id: 24, title: "Gynecological Emergency Care", description: "Assessment and management of gynecological emergencies.", cardCount: 15, category: "Specialized Emergency Care", difficulty: "Intermediate", estimatedTime: "12 min", icon: Heart, color: "from-pink-500 to-purple-500" },
 
-  // Environmental & Special Situations
-  { id: 32, title: "Weather and Environmental Hazards", description: "Temperature extremes, environmental illness, and outdoor emergencies", cardCount: 15, category: "Environmental", difficulty: "Intermediate", estimatedTime: "12 min", icon: Target, color: "from-green-600 to-teal-600" },
-  { id: 33, title: "Blood Sugar and Hormone Crises", description: "Diabetic emergencies and endocrine system disorders", cardCount: 15, category: "Endocrine", difficulty: "Intermediate", estimatedTime: "14 min", icon: Heart, color: "from-yellow-600 to-amber-600" },
-  { id: 34, title: "Blood Disorder Emergencies", description: "Hematological conditions and blood-related emergency care", cardCount: 15, category: "Hematology", difficulty: "Advanced", estimatedTime: "15 min", icon: Heart, color: "from-red-700 to-rose-700" },
-  { id: 35, title: "Kidney and Urinary Emergencies", description: "Renal conditions and genitourinary emergency management", cardCount: 15, category: "Genitourinary", difficulty: "Intermediate", estimatedTime: "12 min", icon: Target, color: "from-blue-400 to-cyan-400" },
-  { id: 36, title: "Chemical Exposure Response", description: "Toxicological emergencies and hazardous substance exposure care", cardCount: 15, category: "Toxicology", difficulty: "Advanced", estimatedTime: "16 min", icon: Target, color: "from-orange-700 to-red-700" },
+  // Module 10 · Trauma Response Principles
+  { id: 25, title: "Trauma System Fundamentals", description: "Trauma systems and mechanism of injury analysis.", cardCount: 15, category: "Trauma Response Principles", difficulty: "Basic", estimatedTime: "12 min", icon: Truck, color: "from-slate-600 to-gray-600" },
+  { id: 26, title: "Hemorrhage Control Techniques", description: "Management of external and internal bleeding.", cardCount: 15, category: "Trauma Response Principles", difficulty: "Advanced", estimatedTime: "14 min", icon: Target, color: "from-red-600 to-rose-600" },
+  { id: 27, title: "Soft Tissue Trauma Management", description: "Care for soft tissue injuries and burns.", cardCount: 15, category: "Trauma Response Principles", difficulty: "Intermediate", estimatedTime: "14 min", icon: Target, color: "from-orange-500 to-red-500" },
 
-  // Operations & Systems
-  { id: 37, title: "Trauma Care System Operations", description: "Trauma system organization and coordinated patient care", cardCount: 15, category: "Trauma Systems", difficulty: "Intermediate", estimatedTime: "12 min", icon: Truck, color: "from-slate-600 to-gray-600" },
-  { id: 38, title: "Vehicle Rescue Operations", description: "Auto extrication, rescue techniques, and vehicle emergency response", cardCount: 15, category: "Rescue", difficulty: "Advanced", estimatedTime: "18 min", icon: Truck, color: "from-red-500 to-orange-500" },
-  { id: 39, title: "Emergency Scene Management", description: "Incident command, scene safety, and emergency operations coordination", cardCount: 15, category: "Operations", difficulty: "Intermediate", estimatedTime: "14 min", icon: Target, color: "from-indigo-600 to-purple-600" },
-  { id: 40, title: "Public Safety Threat Response", description: "Security threats, terrorism response, and tactical emergency medicine", cardCount: 15, category: "Security", difficulty: "Advanced", estimatedTime: "16 min", icon: Target, color: "from-gray-600 to-slate-600" },
-  { id: 41, title: "Mass Casualty Event Management", description: "Disaster response, triage systems, and large-scale emergency management", cardCount: 15, category: "Disaster", difficulty: "Advanced", estimatedTime: "18 min", icon: Truck, color: "from-orange-600 to-red-600" },
-  { id: 42, title: "Law Enforcement Scene Safety", description: "Crime scene operations, evidence preservation, and officer safety", cardCount: 15, category: "Law Enforcement", difficulty: "Intermediate", estimatedTime: "12 min", icon: Users, color: "from-blue-700 to-indigo-700" },
-  { id: 43, title: "Dangerous Material Response", description: "Hazmat identification, decontamination, and chemical emergency response", cardCount: 15, category: "Hazmat", difficulty: "Advanced", estimatedTime: "16 min", icon: Target, color: "from-yellow-700 to-orange-700" },
-  { id: 44, title: "Multi-Patient Incident Operations", description: "Multiple casualty incidents, resource management, and coordinated response", cardCount: 15, category: "MCI", difficulty: "Advanced", estimatedTime: "18 min", icon: Truck, color: "from-purple-700 to-violet-700" },
-  { id: 45, title: "Helicopter Medical Transport", description: "Air medical operations, flight safety, and aeromedical considerations", cardCount: 15, category: "Air Medical", difficulty: "Advanced", estimatedTime: "14 min", icon: Truck, color: "from-cyan-700 to-blue-700" }
+  // Module 11 · Traumatic Injury Management
+  { id: 28, title: "Craniofacial Trauma Response", description: "Management of head and face injuries.", cardCount: 15, category: "Traumatic Injury Management", difficulty: "Advanced", estimatedTime: "16 min", icon: Brain, color: "from-red-600 to-rose-600" },
+  { id: 29, title: "Spinal Trauma Protocols", description: "Spinal immobilization and injury management.", cardCount: 15, category: "Traumatic Injury Management", difficulty: "Advanced", estimatedTime: "18 min", icon: Brain, color: "from-blue-600 to-indigo-600" },
+  { id: 30, title: "Thoracic Injury Interventions", description: "Management of chest trauma.", cardCount: 15, category: "Traumatic Injury Management", difficulty: "Advanced", estimatedTime: "18 min", icon: Target, color: "from-blue-600 to-indigo-600" },
+
+  // Module 12 · Environmental & Musculoskeletal Emergencies
+  { id: 31, title: "Abdominal & GU Trauma Essentials", description: "Management of abdominal and genitourinary trauma.", cardCount: 15, category: "Environmental & Musculoskeletal Emergencies", difficulty: "Advanced", estimatedTime: "16 min", icon: Target, color: "from-purple-600 to-violet-600" },
+  { id: 32, title: "Orthopedic Injury Management", description: "Care for fractures, dislocations, and musculoskeletal injuries.", cardCount: 15, category: "Environmental & Musculoskeletal Emergencies", difficulty: "Intermediate", estimatedTime: "14 min", icon: Target, color: "from-amber-600 to-orange-600" },
+  { id: 33, title: "Environmental Exposure Protocols", description: "Management of heat, cold, and other environmental emergencies.", cardCount: 15, category: "Environmental & Musculoskeletal Emergencies", difficulty: "Intermediate", estimatedTime: "12 min", icon: Target, color: "from-green-600 to-teal-600" },
+
+  // Module 13 · Special Patient Populations
+  { id: 34, title: "Obstetric & Neonatal Emergencies", description: "Emergency childbirth and newborn care.", cardCount: 15, category: "Special Patient Populations", difficulty: "Advanced", estimatedTime: "18 min", icon: Heart, color: "from-rose-500 to-pink-500" },
+  { id: 35, title: "Pediatric Emergency Response", description: "Assessment and management of pediatric emergencies.", cardCount: 15, category: "Special Patient Populations", difficulty: "Advanced", estimatedTime: "16 min", icon: Heart, color: "from-green-400 to-emerald-400" },
+  { id: 36, title: "Geriatric Emergency Care", description: "Special considerations for elderly patients.", cardCount: 15, category: "Special Patient Populations", difficulty: "Intermediate", estimatedTime: "14 min", icon: Users, color: "from-slate-400 to-gray-400" },
+  { id: 37, title: "Patients with Unique Needs", description: "Care for patients with special healthcare needs.", cardCount: 15, category: "Special Patient Populations", difficulty: "Intermediate", estimatedTime: "12 min", icon: Users, color: "from-blue-400 to-cyan-400" },
+
+  // Module 14 · EMS Operations & Disaster Response
+  { id: 38, title: "Medical Transport Operations", description: "Ambulance operations and air medical transport.", cardCount: 15, category: "EMS Operations & Disaster Response", difficulty: "Intermediate", estimatedTime: "14 min", icon: Truck, color: "from-cyan-700 to-blue-700" },
+  { id: 39, title: "Technical Rescue Protocols", description: "Vehicle extrication and special rescue situations.", cardCount: 15, category: "EMS Operations & Disaster Response", difficulty: "Advanced", estimatedTime: "16 min", icon: Truck, color: "from-red-500 to-orange-500" },
+  { id: 40, title: "Incident Command Systems", description: "ICS structure and major incident management.", cardCount: 15, category: "EMS Operations & Disaster Response", difficulty: "Intermediate", estimatedTime: "14 min", icon: Target, color: "from-indigo-600 to-purple-600" },
+  { id: 41, title: "Mass Casualty Incident Response", description: "Triage and management of mass casualty incidents.", cardCount: 15, category: "EMS Operations & Disaster Response", difficulty: "Advanced", estimatedTime: "18 min", icon: Truck, color: "from-orange-600 to-red-600" },
+
+  // Extended Track · Advanced Clinical Deep Dives
+  { id: 42, title: "Advanced Cardiovascular Anatomy", description: "In-depth study of the cardiovascular system.", cardCount: 15, category: "Advanced Clinical Deep Dives", difficulty: "Advanced", estimatedTime: "20 min", icon: Heart, color: "from-red-700 to-rose-700" },
+  { id: 43, title: "Advanced Respiratory Physiology", description: "In-depth study of respiratory physiology.", cardCount: 15, category: "Advanced Clinical Deep Dives", difficulty: "Advanced", estimatedTime: "20 min", icon: Brain, color: "from-blue-700 to-cyan-700" },
+  { id: 44, title: "Nervous System in Depth", description: "Detailed anatomy and physiology of the nervous system.", cardCount: 15, category: "Advanced Clinical Deep Dives", difficulty: "Advanced", estimatedTime: "20 min", icon: Brain, color: "from-purple-700 to-violet-700" },
+  { id: 45, title: "Endocrine & Metabolic Systems", description: "Advanced concepts in endocrine and metabolic systems.", cardCount: 15, category: "Advanced Clinical Deep Dives", difficulty: "Advanced", estimatedTime: "20 min", icon: Heart, color: "from-yellow-600 to-amber-600" },
+
+  // Extended Track · Body Systems Primer (Bonus)
+  { id: 46, title: "Cellular Structure & Function", description: "Basics of cell biology.", cardCount: 10, category: "Body Systems Primer", difficulty: "Basic", estimatedTime: "10 min", icon: Brain, color: "from-green-400 to-teal-400" },
+  { id: 47, title: "Tissues & Organs", description: "Overview of body tissues and organs.", cardCount: 10, category: "Body Systems Primer", difficulty: "Basic", estimatedTime: "10 min", icon: Brain, color: "from-green-500 to-teal-500" },
+  { id: 48, title: "Skeletal System", description: "Anatomy of the skeletal system.", cardCount: 10, category: "Body Systems Primer", difficulty: "Basic", estimatedTime: "10 min", icon: Target, color: "from-slate-400 to-gray-400" },
+  { id: 49, title: "Muscular System", description: "Anatomy of the muscular system.", cardCount: 10, category: "Body Systems Primer", difficulty: "Basic", estimatedTime: "10 min", icon: Target, color: "from-red-400 to-rose-400" },
+  { id: 50, title: "Cardiovascular System", description: "Basics of the cardiovascular system.", cardCount: 10, category: "Body Systems Primer", difficulty: "Basic", estimatedTime: "10 min", icon: Heart, color: "from-red-500 to-rose-500" },
+  { id: 51, title: "Respiratory System", description: "Basics of the respiratory system.", cardCount: 10, category: "Body Systems Primer", difficulty: "Basic", estimatedTime: "10 min", icon: Brain, color: "from-blue-400 to-cyan-400" },
+  { id: 52, title: "Nervous System", description: "Basics of the nervous system.", cardCount: 10, category: "Body Systems Primer", difficulty: "Basic", estimatedTime: "10 min", icon: Brain, color: "from-purple-400 to-violet-400" },
+  { id: 53, title: "Endocrine System", description: "Basics of the endocrine system.", cardCount: 10, category: "Body Systems Primer", difficulty: "Basic", estimatedTime: "10 min", icon: Heart, color: "from-yellow-400 to-amber-400" },
+  { id: 54, title: "Digestive System", description: "Basics of the digestive system.", cardCount: 10, category: "Body Systems Primer", difficulty: "Basic", estimatedTime: "10 min", icon: Target, color: "from-orange-400 to-amber-400" },
+  { id: 55, title: "Urinary System", description: "Basics of the urinary system.", cardCount: 10, category: "Body Systems Primer", difficulty: "Basic", estimatedTime: "10 min", icon: Target, color: "from-blue-300 to-cyan-300" },
+  { id: 56, title: "ALS Integration & Team Dynamics", description: "Working with Advanced Life Support providers.", cardCount: 10, category: "Body Systems Primer", difficulty: "Intermediate", estimatedTime: "12 min", icon: Users, color: "from-indigo-400 to-purple-400" }
 ]
 
 const categories = [
-  "All", "Foundation", "Safety", "Legal", "Operations", "Anatomy", "Development", 
-  "Assessment", "Documentation", "Pharmacology", "BLS", "Airway", "Respiratory", 
-  "Cardiac", "Trauma", "Toxicology", "Behavioral", "Women's Health", "Obstetrics", 
-  "Neonatal", "Pediatric", "Geriatric", "Neuro Trauma", "Chest Trauma", 
-  "Abdominal Trauma", "Orthopedic", "Environmental", "Endocrine", "Hematology", 
-  "Genitourinary", "Trauma Systems", "Rescue", "Security", "Disaster", 
-  "Law Enforcement", "Hazmat", "MCI", "Air Medical"
+  "All", 
+  "Foundations of EMS Practice", 
+  "Clinical Foundations", 
+  "Patient Assessment Mastery", 
+  "Airway & Ventilatory Management", 
+  "Pharmacology for EMT-B", 
+  "Shock & Circulatory Management", 
+  "Medical Emergency Response", 
+  "Neurologic & Systemic Emergencies", 
+  "Specialized Emergency Care", 
+  "Trauma Response Principles", 
+  "Traumatic Injury Management", 
+  "Environmental & Musculoskeletal Emergencies", 
+  "Special Patient Populations", 
+  "EMS Operations & Disaster Response", 
+  "Advanced Clinical Deep Dives", 
+  "Body Systems Primer"
 ]
 const difficulties = ["All", "Basic", "Intermediate", "Advanced"]
 

@@ -83,7 +83,7 @@ export const getAllLocalFlashcards = (): FlashcardData[] => {
               type: normalizeType(card.type),
               tags: Array.isArray(card.tags) ? card.tags : [],
               chapterNumber: collection.chapterNumber,
-              chapterTitle: `Chapter ${collection.chapterNumber}`
+              chapterTitle: collection.chapterTitle || `Chapter ${collection.chapterNumber}`
             })
           } catch (e) {
             console.warn('Error processing chapter flashcard:', card, e)

@@ -34,6 +34,7 @@ interface ExportData {
     mainFlashcards: ExportedFlashcard[]
     chapterCollections: Array<{
       chapterNumber: number
+      chapterTitle?: string
       flashcards: ChapterFlashcard[]
       count: number
     }>
@@ -189,7 +190,7 @@ export function transformFlashcardData(exportData: ExportData): FlashcardSeedDat
         type: mapType(card.type),
         tags: generateTags(card, collection.chapterNumber),
         chapterNumber: collection.chapterNumber,
-        chapterTitle: card.chapterTitle || chapterTitles[collection.chapterNumber] || `Chapter ${collection.chapterNumber}`
+        chapterTitle: card.chapterTitle || collection.chapterTitle || chapterTitles[collection.chapterNumber] || `Chapter ${collection.chapterNumber}`
       }
       transformedCards.push(transformed)
     })
