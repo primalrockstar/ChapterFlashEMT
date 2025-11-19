@@ -7083,53 +7083,78 @@
         "flashcards": [
           {
             "id": "ch46-new-001",
-            "question": "Placeholder Question 1 for Cellular Structure & Function",
-            "answer": "This is a placeholder answer for Cellular Structure & Function. Content coming soon.",
+            "question": "What is the primary function of the cell membrane?",
+            "answer": "The cell membrane regulates the movement of substances in and out of the cell, providing protection and structural support.",
             "category": "Body Systems Primer",
             "difficulty": "Basic",
             "type": "definition",
             "chapterNumber": 46,
-            "chapterTitle": "Cellular Structure & Function"
+            "chapterTitle": "Cellular Structure & Function",
+            "tags": [
+              "biology",
+              "cellular",
+              "anatomy"
+            ]
           },
           {
             "id": "ch46-new-002",
-            "question": "Placeholder Question 2 for Cellular Structure & Function",
-            "answer": "This is a placeholder answer for Cellular Structure & Function. Content coming soon.",
+            "question": "Which organelle is known as the 'powerhouse' of the cell and why?",
+            "answer": "The mitochondria; it generates most of the cell's supply of adenosine triphosphate (ATP), used as a source of chemical energy.",
             "category": "Body Systems Primer",
             "difficulty": "Basic",
             "type": "definition",
             "chapterNumber": 46,
-            "chapterTitle": "Cellular Structure & Function"
+            "chapterTitle": "Cellular Structure & Function",
+            "tags": [
+              "biology",
+              "cellular",
+              "energy"
+            ]
           },
           {
             "id": "ch46-new-003",
-            "question": "Placeholder Question 3 for Cellular Structure & Function",
-            "answer": "This is a placeholder answer for Cellular Structure & Function. Content coming soon.",
+            "question": "Define osmosis.",
+            "answer": "Osmosis is the movement of water molecules through a semipermeable membrane from a region of lower solute concentration to a region of higher solute concentration.",
             "category": "Body Systems Primer",
-            "difficulty": "Basic",
+            "difficulty": "Intermediate",
             "type": "definition",
             "chapterNumber": 46,
-            "chapterTitle": "Cellular Structure & Function"
+            "chapterTitle": "Cellular Structure & Function",
+            "tags": [
+              "biology",
+              "cellular",
+              "transport"
+            ]
           },
           {
             "id": "ch46-new-004",
-            "question": "Placeholder Question 4 for Cellular Structure & Function",
-            "answer": "This is a placeholder answer for Cellular Structure & Function. Content coming soon.",
+            "question": "What is the function of the nucleus in a cell?",
+            "answer": "The nucleus contains the cell's genetic material (DNA) and controls the cell's growth and reproduction.",
             "category": "Body Systems Primer",
             "difficulty": "Basic",
             "type": "definition",
             "chapterNumber": 46,
-            "chapterTitle": "Cellular Structure & Function"
+            "chapterTitle": "Cellular Structure & Function",
+            "tags": [
+              "biology",
+              "cellular",
+              "genetics"
+            ]
           },
           {
             "id": "ch46-new-005",
-            "question": "Placeholder Question 5 for Cellular Structure & Function",
-            "answer": "This is a placeholder answer for Cellular Structure & Function. Content coming soon.",
+            "question": "What is the difference between aerobic and anaerobic metabolism?",
+            "answer": "Aerobic metabolism requires oxygen to produce energy (ATP), while anaerobic metabolism occurs without oxygen and produces less energy and byproducts like lactic acid.",
             "category": "Body Systems Primer",
-            "difficulty": "Basic",
-            "type": "definition",
+            "difficulty": "Intermediate",
+            "type": "comparison",
             "chapterNumber": 46,
-            "chapterTitle": "Cellular Structure & Function"
+            "chapterTitle": "Cellular Structure & Function",
+            "tags": [
+              "biology",
+              "metabolism",
+              "cellular"
+            ]
           }
         ]
       },
@@ -7139,53 +7164,77 @@
         "flashcards": [
           {
             "id": "ch47-new-001",
-            "question": "Placeholder Question 1 for Tissues & Organs",
-            "answer": "This is a placeholder answer for Tissues & Organs. Content coming soon.",
+            "question": "What are the four main types of tissue in the human body?",
+            "answer": "Epithelial, connective, muscle, and nervous tissue.",
             "category": "Body Systems Primer",
             "difficulty": "Basic",
-            "type": "definition",
+            "type": "list",
             "chapterNumber": 47,
-            "chapterTitle": "Tissues & Organs"
+            "chapterTitle": "Tissues & Organs",
+            "tags": [
+              "anatomy",
+              "tissues"
+            ]
           },
           {
             "id": "ch47-new-002",
-            "question": "Placeholder Question 2 for Tissues & Organs",
-            "answer": "This is a placeholder answer for Tissues & Organs. Content coming soon.",
+            "question": "What is the primary function of epithelial tissue?",
+            "answer": "To cover body surfaces, line cavities and hollow organs, and form glands. It acts as a barrier and is involved in absorption and secretion.",
             "category": "Body Systems Primer",
             "difficulty": "Basic",
             "type": "definition",
             "chapterNumber": 47,
-            "chapterTitle": "Tissues & Organs"
+            "chapterTitle": "Tissues & Organs",
+            "tags": [
+              "anatomy",
+              "tissues",
+              "epithelial"
+            ]
           },
           {
             "id": "ch47-new-003",
-            "question": "Placeholder Question 3 for Tissues & Organs",
-            "answer": "This is a placeholder answer for Tissues & Organs. Content coming soon.",
+            "question": "Give an example of connective tissue.",
+            "answer": "Bone, cartilage, fat (adipose tissue), and blood are all examples of connective tissue.",
             "category": "Body Systems Primer",
             "difficulty": "Basic",
-            "type": "definition",
+            "type": "example",
             "chapterNumber": 47,
-            "chapterTitle": "Tissues & Organs"
+            "chapterTitle": "Tissues & Organs",
+            "tags": [
+              "anatomy",
+              "tissues",
+              "connective"
+            ]
           },
           {
             "id": "ch47-new-004",
-            "question": "Placeholder Question 4 for Tissues & Organs",
-            "answer": "This is a placeholder answer for Tissues & Organs. Content coming soon.",
+            "question": "What is the difference between ligaments and tendons?",
+            "answer": "Ligaments connect bone to bone, while tendons connect muscle to bone.",
             "category": "Body Systems Primer",
-            "difficulty": "Basic",
-            "type": "definition",
+            "difficulty": "Intermediate",
+            "type": "comparison",
             "chapterNumber": 47,
-            "chapterTitle": "Tissues & Organs"
+            "chapterTitle": "Tissues & Organs",
+            "tags": [
+              "anatomy",
+              "musculoskeletal",
+              "connective"
+            ]
           },
           {
             "id": "ch47-new-005",
-            "question": "Placeholder Question 5 for Tissues & Organs",
-            "answer": "This is a placeholder answer for Tissues & Organs. Content coming soon.",
+            "question": "What is the function of an organ system?",
+            "answer": "An organ system is a group of organs that work together to perform complex functions for the body (e.g., the digestive system).",
             "category": "Body Systems Primer",
             "difficulty": "Basic",
             "type": "definition",
             "chapterNumber": 47,
-            "chapterTitle": "Tissues & Organs"
+            "chapterTitle": "Tissues & Organs",
+            "tags": [
+              "anatomy",
+              "physiology",
+              "systems"
+            ]
           }
         ]
       },
@@ -7195,53 +7244,78 @@
         "flashcards": [
           {
             "id": "ch48-new-001",
-            "question": "Placeholder Question 1 for Skeletal System",
-            "answer": "This is a placeholder answer for Skeletal System. Content coming soon.",
+            "question": "What are the two main divisions of the skeletal system?",
+            "answer": "The axial skeleton (skull, spine, ribs, sternum) and the appendicular skeleton (limbs and girdles).",
             "category": "Body Systems Primer",
             "difficulty": "Basic",
             "type": "definition",
             "chapterNumber": 48,
-            "chapterTitle": "Skeletal System"
+            "chapterTitle": "Skeletal System",
+            "tags": [
+              "anatomy",
+              "skeletal",
+              "bones"
+            ]
           },
           {
             "id": "ch48-new-002",
-            "question": "Placeholder Question 2 for Skeletal System",
-            "answer": "This is a placeholder answer for Skeletal System. Content coming soon.",
+            "question": "What is the longest and strongest bone in the human body?",
+            "answer": "The femur (thigh bone).",
             "category": "Body Systems Primer",
             "difficulty": "Basic",
-            "type": "definition",
+            "type": "fact",
             "chapterNumber": 48,
-            "chapterTitle": "Skeletal System"
+            "chapterTitle": "Skeletal System",
+            "tags": [
+              "anatomy",
+              "skeletal",
+              "bones"
+            ]
           },
           {
             "id": "ch48-new-003",
-            "question": "Placeholder Question 3 for Skeletal System",
-            "answer": "This is a placeholder answer for Skeletal System. Content coming soon.",
+            "question": "Describe the function of the rib cage.",
+            "answer": "The rib cage protects the heart and lungs and assists in breathing by expanding and contracting.",
             "category": "Body Systems Primer",
             "difficulty": "Basic",
-            "type": "definition",
+            "type": "function",
             "chapterNumber": 48,
-            "chapterTitle": "Skeletal System"
+            "chapterTitle": "Skeletal System",
+            "tags": [
+              "anatomy",
+              "skeletal",
+              "protection"
+            ]
           },
           {
             "id": "ch48-new-004",
-            "question": "Placeholder Question 4 for Skeletal System",
-            "answer": "This is a placeholder answer for Skeletal System. Content coming soon.",
+            "question": "What type of joint is the shoulder joint?",
+            "answer": "A ball-and-socket joint, which allows for a wide range of motion.",
             "category": "Body Systems Primer",
-            "difficulty": "Basic",
-            "type": "definition",
+            "difficulty": "Intermediate",
+            "type": "classification",
             "chapterNumber": 48,
-            "chapterTitle": "Skeletal System"
+            "chapterTitle": "Skeletal System",
+            "tags": [
+              "anatomy",
+              "skeletal",
+              "joints"
+            ]
           },
           {
             "id": "ch48-new-005",
-            "question": "Placeholder Question 5 for Skeletal System",
-            "answer": "This is a placeholder answer for Skeletal System. Content coming soon.",
+            "question": "How many vertebrae are in the cervical spine?",
+            "answer": "Seven (C1-C7).",
             "category": "Body Systems Primer",
-            "difficulty": "Basic",
-            "type": "definition",
+            "difficulty": "Intermediate",
+            "type": "fact",
             "chapterNumber": 48,
-            "chapterTitle": "Skeletal System"
+            "chapterTitle": "Skeletal System",
+            "tags": [
+              "anatomy",
+              "skeletal",
+              "spine"
+            ]
           }
         ]
       },
@@ -7251,53 +7325,78 @@
         "flashcards": [
           {
             "id": "ch49-new-001",
-            "question": "Placeholder Question 1 for Muscular System",
-            "answer": "This is a placeholder answer for Muscular System. Content coming soon.",
+            "question": "What are the three types of muscle tissue?",
+            "answer": "Skeletal (voluntary), smooth (involuntary), and cardiac (involuntary heart muscle).",
             "category": "Body Systems Primer",
             "difficulty": "Basic",
-            "type": "definition",
+            "type": "list",
             "chapterNumber": 49,
-            "chapterTitle": "Muscular System"
+            "chapterTitle": "Muscular System",
+            "tags": [
+              "anatomy",
+              "muscular",
+              "tissues"
+            ]
           },
           {
             "id": "ch49-new-002",
-            "question": "Placeholder Question 2 for Muscular System",
-            "answer": "This is a placeholder answer for Muscular System. Content coming soon.",
+            "question": "Which type of muscle is under voluntary control?",
+            "answer": "Skeletal muscle.",
             "category": "Body Systems Primer",
             "difficulty": "Basic",
             "type": "definition",
             "chapterNumber": 49,
-            "chapterTitle": "Muscular System"
+            "chapterTitle": "Muscular System",
+            "tags": [
+              "anatomy",
+              "muscular",
+              "control"
+            ]
           },
           {
             "id": "ch49-new-003",
-            "question": "Placeholder Question 3 for Muscular System",
-            "answer": "This is a placeholder answer for Muscular System. Content coming soon.",
+            "question": "Where is smooth muscle typically found?",
+            "answer": "In the walls of hollow organs such as the stomach, intestines, blood vessels, and bladder.",
             "category": "Body Systems Primer",
-            "difficulty": "Basic",
-            "type": "definition",
+            "difficulty": "Intermediate",
+            "type": "location",
             "chapterNumber": 49,
-            "chapterTitle": "Muscular System"
+            "chapterTitle": "Muscular System",
+            "tags": [
+              "anatomy",
+              "muscular",
+              "smooth-muscle"
+            ]
           },
           {
             "id": "ch49-new-004",
-            "question": "Placeholder Question 4 for Muscular System",
-            "answer": "This is a placeholder answer for Muscular System. Content coming soon.",
+            "question": "What is the unique characteristic of cardiac muscle cells?",
+            "answer": "They have automaticity, meaning they can generate their own electrical impulses to contract rhythmically.",
             "category": "Body Systems Primer",
-            "difficulty": "Basic",
-            "type": "definition",
+            "difficulty": "Advanced",
+            "type": "characteristic",
             "chapterNumber": 49,
-            "chapterTitle": "Muscular System"
+            "chapterTitle": "Muscular System",
+            "tags": [
+              "anatomy",
+              "muscular",
+              "cardiac"
+            ]
           },
           {
             "id": "ch49-new-005",
-            "question": "Placeholder Question 5 for Muscular System",
-            "answer": "This is a placeholder answer for Muscular System. Content coming soon.",
+            "question": "What happens during muscle contraction?",
+            "answer": "Muscle fibers shorten, pulling on the tendons and bones to create movement.",
             "category": "Body Systems Primer",
             "difficulty": "Basic",
-            "type": "definition",
+            "type": "process",
             "chapterNumber": 49,
-            "chapterTitle": "Muscular System"
+            "chapterTitle": "Muscular System",
+            "tags": [
+              "physiology",
+              "muscular",
+              "movement"
+            ]
           }
         ]
       },
@@ -7307,53 +7406,78 @@
         "flashcards": [
           {
             "id": "ch50-new-001",
-            "question": "Placeholder Question 1 for Cardiovascular System",
-            "answer": "This is a placeholder answer for Cardiovascular System. Content coming soon.",
+            "question": "Trace the path of blood through the heart, starting from the body.",
+            "answer": "Right atrium -> Right ventricle -> Lungs (via pulmonary artery) -> Left atrium -> Left ventricle -> Body (via aorta).",
             "category": "Body Systems Primer",
-            "difficulty": "Basic",
-            "type": "definition",
+            "difficulty": "Advanced",
+            "type": "process",
             "chapterNumber": 50,
-            "chapterTitle": "Cardiovascular System"
+            "chapterTitle": "Cardiovascular System",
+            "tags": [
+              "anatomy",
+              "cardiovascular",
+              "circulation"
+            ]
           },
           {
             "id": "ch50-new-002",
-            "question": "Placeholder Question 2 for Cardiovascular System",
-            "answer": "This is a placeholder answer for Cardiovascular System. Content coming soon.",
+            "question": "What is the difference between arteries and veins?",
+            "answer": "Arteries carry blood away from the heart (usually oxygenated), while veins carry blood back to the heart (usually deoxygenated).",
             "category": "Body Systems Primer",
             "difficulty": "Basic",
-            "type": "definition",
+            "type": "comparison",
             "chapterNumber": 50,
-            "chapterTitle": "Cardiovascular System"
+            "chapterTitle": "Cardiovascular System",
+            "tags": [
+              "anatomy",
+              "cardiovascular",
+              "vessels"
+            ]
           },
           {
             "id": "ch50-new-003",
-            "question": "Placeholder Question 3 for Cardiovascular System",
-            "answer": "This is a placeholder answer for Cardiovascular System. Content coming soon.",
+            "question": "What is the function of capillaries?",
+            "answer": "Capillaries are tiny vessels where the exchange of oxygen, nutrients, and waste products occurs between blood and tissues.",
             "category": "Body Systems Primer",
-            "difficulty": "Basic",
-            "type": "definition",
+            "difficulty": "Intermediate",
+            "type": "function",
             "chapterNumber": 50,
-            "chapterTitle": "Cardiovascular System"
+            "chapterTitle": "Cardiovascular System",
+            "tags": [
+              "anatomy",
+              "cardiovascular",
+              "capillaries"
+            ]
           },
           {
             "id": "ch50-new-004",
-            "question": "Placeholder Question 4 for Cardiovascular System",
-            "answer": "This is a placeholder answer for Cardiovascular System. Content coming soon.",
+            "question": "What are the four main components of blood?",
+            "answer": "Red blood cells (erythrocytes), white blood cells (leukocytes), platelets (thrombocytes), and plasma.",
             "category": "Body Systems Primer",
             "difficulty": "Basic",
-            "type": "definition",
+            "type": "list",
             "chapterNumber": 50,
-            "chapterTitle": "Cardiovascular System"
+            "chapterTitle": "Cardiovascular System",
+            "tags": [
+              "anatomy",
+              "cardiovascular",
+              "blood"
+            ]
           },
           {
             "id": "ch50-new-005",
-            "question": "Placeholder Question 5 for Cardiovascular System",
-            "answer": "This is a placeholder answer for Cardiovascular System. Content coming soon.",
+            "question": "What does the systolic blood pressure represent?",
+            "answer": "The pressure in the arteries when the heart muscle contracts and pumps blood.",
             "category": "Body Systems Primer",
-            "difficulty": "Basic",
+            "difficulty": "Intermediate",
             "type": "definition",
             "chapterNumber": 50,
-            "chapterTitle": "Cardiovascular System"
+            "chapterTitle": "Cardiovascular System",
+            "tags": [
+              "physiology",
+              "cardiovascular",
+              "vitals"
+            ]
           }
         ]
       },
@@ -7363,53 +7487,78 @@
         "flashcards": [
           {
             "id": "ch51-new-001",
-            "question": "Placeholder Question 1 for Respiratory System",
-            "answer": "This is a placeholder answer for Respiratory System. Content coming soon.",
+            "question": "What is the primary function of the respiratory system?",
+            "answer": "To exchange gases (oxygen and carbon dioxide) between the body and the environment.",
             "category": "Body Systems Primer",
             "difficulty": "Basic",
-            "type": "definition",
+            "type": "function",
             "chapterNumber": 51,
-            "chapterTitle": "Respiratory System"
+            "chapterTitle": "Respiratory System",
+            "tags": [
+              "anatomy",
+              "respiratory",
+              "gas-exchange"
+            ]
           },
           {
             "id": "ch51-new-002",
-            "question": "Placeholder Question 2 for Respiratory System",
-            "answer": "This is a placeholder answer for Respiratory System. Content coming soon.",
+            "question": "What structure prevents food from entering the trachea during swallowing?",
+            "answer": "The epiglottis.",
             "category": "Body Systems Primer",
             "difficulty": "Basic",
-            "type": "definition",
+            "type": "anatomy",
             "chapterNumber": 51,
-            "chapterTitle": "Respiratory System"
+            "chapterTitle": "Respiratory System",
+            "tags": [
+              "anatomy",
+              "respiratory",
+              "airway"
+            ]
           },
           {
             "id": "ch51-new-003",
-            "question": "Placeholder Question 3 for Respiratory System",
-            "answer": "This is a placeholder answer for Respiratory System. Content coming soon.",
+            "question": "Where does gas exchange occur in the lungs?",
+            "answer": "In the alveoli, tiny air sacs at the end of the bronchioles.",
             "category": "Body Systems Primer",
-            "difficulty": "Basic",
-            "type": "definition",
+            "difficulty": "Intermediate",
+            "type": "location",
             "chapterNumber": 51,
-            "chapterTitle": "Respiratory System"
+            "chapterTitle": "Respiratory System",
+            "tags": [
+              "anatomy",
+              "respiratory",
+              "alveoli"
+            ]
           },
           {
             "id": "ch51-new-004",
-            "question": "Placeholder Question 4 for Respiratory System",
-            "answer": "This is a placeholder answer for Respiratory System. Content coming soon.",
+            "question": "What is the role of the diaphragm in breathing?",
+            "answer": "The diaphragm contracts and moves downward during inhalation to increase chest cavity volume, drawing air in. It relaxes and moves up during exhalation.",
             "category": "Body Systems Primer",
-            "difficulty": "Basic",
-            "type": "definition",
+            "difficulty": "Intermediate",
+            "type": "physiology",
             "chapterNumber": 51,
-            "chapterTitle": "Respiratory System"
+            "chapterTitle": "Respiratory System",
+            "tags": [
+              "physiology",
+              "respiratory",
+              "breathing"
+            ]
           },
           {
             "id": "ch51-new-005",
-            "question": "Placeholder Question 5 for Respiratory System",
-            "answer": "This is a placeholder answer for Respiratory System. Content coming soon.",
+            "question": "Differentiate between the upper and lower airway.",
+            "answer": "The upper airway includes the nose, mouth, pharynx, and larynx. The lower airway includes the trachea, bronchi, bronchioles, and alveoli.",
             "category": "Body Systems Primer",
-            "difficulty": "Basic",
-            "type": "definition",
+            "difficulty": "Intermediate",
+            "type": "classification",
             "chapterNumber": 51,
-            "chapterTitle": "Respiratory System"
+            "chapterTitle": "Respiratory System",
+            "tags": [
+              "anatomy",
+              "respiratory",
+              "airway"
+            ]
           }
         ]
       },
@@ -7419,53 +7568,78 @@
         "flashcards": [
           {
             "id": "ch52-new-001",
-            "question": "Placeholder Question 1 for Nervous System",
-            "answer": "This is a placeholder answer for Nervous System. Content coming soon.",
+            "question": "What are the two main divisions of the nervous system?",
+            "answer": "The Central Nervous System (CNS) and the Peripheral Nervous System (PNS).",
             "category": "Body Systems Primer",
             "difficulty": "Basic",
             "type": "definition",
             "chapterNumber": 52,
-            "chapterTitle": "Nervous System"
+            "chapterTitle": "Nervous System",
+            "tags": [
+              "anatomy",
+              "nervous",
+              "systems"
+            ]
           },
           {
             "id": "ch52-new-002",
-            "question": "Placeholder Question 2 for Nervous System",
-            "answer": "This is a placeholder answer for Nervous System. Content coming soon.",
+            "question": "What organs make up the Central Nervous System?",
+            "answer": "The brain and the spinal cord.",
             "category": "Body Systems Primer",
             "difficulty": "Basic",
-            "type": "definition",
+            "type": "anatomy",
             "chapterNumber": 52,
-            "chapterTitle": "Nervous System"
+            "chapterTitle": "Nervous System",
+            "tags": [
+              "anatomy",
+              "nervous",
+              "cns"
+            ]
           },
           {
             "id": "ch52-new-003",
-            "question": "Placeholder Question 3 for Nervous System",
-            "answer": "This is a placeholder answer for Nervous System. Content coming soon.",
+            "question": "What is the basic functional unit of the nervous system?",
+            "answer": "The neuron (nerve cell).",
             "category": "Body Systems Primer",
             "difficulty": "Basic",
             "type": "definition",
             "chapterNumber": 52,
-            "chapterTitle": "Nervous System"
+            "chapterTitle": "Nervous System",
+            "tags": [
+              "anatomy",
+              "nervous",
+              "cells"
+            ]
           },
           {
             "id": "ch52-new-004",
-            "question": "Placeholder Question 4 for Nervous System",
-            "answer": "This is a placeholder answer for Nervous System. Content coming soon.",
+            "question": "Describe the function of the Autonomic Nervous System.",
+            "answer": "It controls involuntary body functions like heart rate, digestion, and respiratory rate.",
             "category": "Body Systems Primer",
-            "difficulty": "Basic",
-            "type": "definition",
+            "difficulty": "Intermediate",
+            "type": "function",
             "chapterNumber": 52,
-            "chapterTitle": "Nervous System"
+            "chapterTitle": "Nervous System",
+            "tags": [
+              "physiology",
+              "nervous",
+              "autonomic"
+            ]
           },
           {
             "id": "ch52-new-005",
-            "question": "Placeholder Question 5 for Nervous System",
-            "answer": "This is a placeholder answer for Nervous System. Content coming soon.",
+            "question": "What is the difference between the Sympathetic and Parasympathetic nervous systems?",
+            "answer": "Sympathetic is 'fight or flight' (arousal), while Parasympathetic is 'rest and digest' (calming).",
             "category": "Body Systems Primer",
-            "difficulty": "Basic",
-            "type": "definition",
+            "difficulty": "Intermediate",
+            "type": "comparison",
             "chapterNumber": 52,
-            "chapterTitle": "Nervous System"
+            "chapterTitle": "Nervous System",
+            "tags": [
+              "physiology",
+              "nervous",
+              "autonomic"
+            ]
           }
         ]
       },
@@ -7475,53 +7649,78 @@
         "flashcards": [
           {
             "id": "ch53-new-001",
-            "question": "Placeholder Question 1 for Endocrine System",
-            "answer": "This is a placeholder answer for Endocrine System. Content coming soon.",
+            "question": "What is the primary function of the endocrine system?",
+            "answer": "To regulate body activities by releasing hormones into the bloodstream.",
             "category": "Body Systems Primer",
             "difficulty": "Basic",
-            "type": "definition",
+            "type": "function",
             "chapterNumber": 53,
-            "chapterTitle": "Endocrine System"
+            "chapterTitle": "Endocrine System",
+            "tags": [
+              "anatomy",
+              "endocrine",
+              "hormones"
+            ]
           },
           {
             "id": "ch53-new-002",
-            "question": "Placeholder Question 2 for Endocrine System",
-            "answer": "This is a placeholder answer for Endocrine System. Content coming soon.",
+            "question": "Which gland is often called the 'master gland'?",
+            "answer": "The pituitary gland, because it controls the function of many other endocrine glands.",
             "category": "Body Systems Primer",
             "difficulty": "Basic",
-            "type": "definition",
+            "type": "anatomy",
             "chapterNumber": 53,
-            "chapterTitle": "Endocrine System"
+            "chapterTitle": "Endocrine System",
+            "tags": [
+              "anatomy",
+              "endocrine",
+              "glands"
+            ]
           },
           {
             "id": "ch53-new-003",
-            "question": "Placeholder Question 3 for Endocrine System",
-            "answer": "This is a placeholder answer for Endocrine System. Content coming soon.",
+            "question": "What hormone regulates blood sugar levels by lowering them?",
+            "answer": "Insulin, produced by the pancreas.",
             "category": "Body Systems Primer",
-            "difficulty": "Basic",
-            "type": "definition",
+            "difficulty": "Intermediate",
+            "type": "physiology",
             "chapterNumber": 53,
-            "chapterTitle": "Endocrine System"
+            "chapterTitle": "Endocrine System",
+            "tags": [
+              "physiology",
+              "endocrine",
+              "diabetes"
+            ]
           },
           {
             "id": "ch53-new-004",
-            "question": "Placeholder Question 4 for Endocrine System",
-            "answer": "This is a placeholder answer for Endocrine System. Content coming soon.",
+            "question": "What is the function of adrenaline (epinephrine)?",
+            "answer": "It prepares the body for stress by increasing heart rate, blood pressure, and energy supplies.",
             "category": "Body Systems Primer",
-            "difficulty": "Basic",
-            "type": "definition",
+            "difficulty": "Intermediate",
+            "type": "physiology",
             "chapterNumber": 53,
-            "chapterTitle": "Endocrine System"
+            "chapterTitle": "Endocrine System",
+            "tags": [
+              "physiology",
+              "endocrine",
+              "stress"
+            ]
           },
           {
             "id": "ch53-new-005",
-            "question": "Placeholder Question 5 for Endocrine System",
-            "answer": "This is a placeholder answer for Endocrine System. Content coming soon.",
+            "question": "Where are the adrenal glands located?",
+            "answer": "On top of each kidney.",
             "category": "Body Systems Primer",
             "difficulty": "Basic",
-            "type": "definition",
+            "type": "location",
             "chapterNumber": 53,
-            "chapterTitle": "Endocrine System"
+            "chapterTitle": "Endocrine System",
+            "tags": [
+              "anatomy",
+              "endocrine",
+              "adrenal"
+            ]
           }
         ]
       },
@@ -7531,53 +7730,78 @@
         "flashcards": [
           {
             "id": "ch54-new-001",
-            "question": "Placeholder Question 1 for Digestive System",
-            "answer": "This is a placeholder answer for Digestive System. Content coming soon.",
+            "question": "What is the main function of the digestive system?",
+            "answer": "To break down food into nutrients that can be absorbed and used by the body, and to eliminate waste.",
             "category": "Body Systems Primer",
             "difficulty": "Basic",
-            "type": "definition",
+            "type": "function",
             "chapterNumber": 54,
-            "chapterTitle": "Digestive System"
+            "chapterTitle": "Digestive System",
+            "tags": [
+              "anatomy",
+              "digestive",
+              "function"
+            ]
           },
           {
             "id": "ch54-new-002",
-            "question": "Placeholder Question 2 for Digestive System",
-            "answer": "This is a placeholder answer for Digestive System. Content coming soon.",
+            "question": "Where does most nutrient absorption occur?",
+            "answer": "In the small intestine.",
             "category": "Body Systems Primer",
-            "difficulty": "Basic",
-            "type": "definition",
+            "difficulty": "Intermediate",
+            "type": "physiology",
             "chapterNumber": 54,
-            "chapterTitle": "Digestive System"
+            "chapterTitle": "Digestive System",
+            "tags": [
+              "physiology",
+              "digestive",
+              "absorption"
+            ]
           },
           {
             "id": "ch54-new-003",
-            "question": "Placeholder Question 3 for Digestive System",
-            "answer": "This is a placeholder answer for Digestive System. Content coming soon.",
+            "question": "What is the role of the liver in digestion?",
+            "answer": "It produces bile (which helps break down fats), processes nutrients, and detoxifies harmful substances.",
             "category": "Body Systems Primer",
-            "difficulty": "Basic",
-            "type": "definition",
+            "difficulty": "Intermediate",
+            "type": "function",
             "chapterNumber": 54,
-            "chapterTitle": "Digestive System"
+            "chapterTitle": "Digestive System",
+            "tags": [
+              "anatomy",
+              "digestive",
+              "liver"
+            ]
           },
           {
             "id": "ch54-new-004",
-            "question": "Placeholder Question 4 for Digestive System",
-            "answer": "This is a placeholder answer for Digestive System. Content coming soon.",
+            "question": "What is peristalsis?",
+            "answer": "The wave-like muscle contractions that move food through the digestive tract.",
             "category": "Body Systems Primer",
-            "difficulty": "Basic",
+            "difficulty": "Intermediate",
             "type": "definition",
             "chapterNumber": 54,
-            "chapterTitle": "Digestive System"
+            "chapterTitle": "Digestive System",
+            "tags": [
+              "physiology",
+              "digestive",
+              "movement"
+            ]
           },
           {
             "id": "ch54-new-005",
-            "question": "Placeholder Question 5 for Digestive System",
-            "answer": "This is a placeholder answer for Digestive System. Content coming soon.",
+            "question": "What is the function of the stomach?",
+            "answer": "To store food and break it down mechanically and chemically with acid and enzymes.",
             "category": "Body Systems Primer",
             "difficulty": "Basic",
-            "type": "definition",
+            "type": "function",
             "chapterNumber": 54,
-            "chapterTitle": "Digestive System"
+            "chapterTitle": "Digestive System",
+            "tags": [
+              "anatomy",
+              "digestive",
+              "stomach"
+            ]
           }
         ]
       },
@@ -7587,53 +7811,78 @@
         "flashcards": [
           {
             "id": "ch55-new-001",
-            "question": "Placeholder Question 1 for Urinary System",
-            "answer": "This is a placeholder answer for Urinary System. Content coming soon.",
+            "question": "What are the main organs of the urinary system?",
+            "answer": "Kidneys, ureters, urinary bladder, and urethra.",
             "category": "Body Systems Primer",
             "difficulty": "Basic",
-            "type": "definition",
+            "type": "list",
             "chapterNumber": 55,
-            "chapterTitle": "Urinary System"
+            "chapterTitle": "Urinary System",
+            "tags": [
+              "anatomy",
+              "urinary",
+              "organs"
+            ]
           },
           {
             "id": "ch55-new-002",
-            "question": "Placeholder Question 2 for Urinary System",
-            "answer": "This is a placeholder answer for Urinary System. Content coming soon.",
+            "question": "What is the primary function of the kidneys?",
+            "answer": "To filter waste products and excess fluid from the blood to form urine.",
             "category": "Body Systems Primer",
             "difficulty": "Basic",
-            "type": "definition",
+            "type": "function",
             "chapterNumber": 55,
-            "chapterTitle": "Urinary System"
+            "chapterTitle": "Urinary System",
+            "tags": [
+              "physiology",
+              "urinary",
+              "kidneys"
+            ]
           },
           {
             "id": "ch55-new-003",
-            "question": "Placeholder Question 3 for Urinary System",
-            "answer": "This is a placeholder answer for Urinary System. Content coming soon.",
+            "question": "What tube carries urine from the kidney to the bladder?",
+            "answer": "The ureter.",
             "category": "Body Systems Primer",
             "difficulty": "Basic",
-            "type": "definition",
+            "type": "anatomy",
             "chapterNumber": 55,
-            "chapterTitle": "Urinary System"
+            "chapterTitle": "Urinary System",
+            "tags": [
+              "anatomy",
+              "urinary",
+              "ureter"
+            ]
           },
           {
             "id": "ch55-new-004",
-            "question": "Placeholder Question 4 for Urinary System",
-            "answer": "This is a placeholder answer for Urinary System. Content coming soon.",
+            "question": "What is the function of the urinary bladder?",
+            "answer": "To store urine until it is eliminated from the body.",
             "category": "Body Systems Primer",
             "difficulty": "Basic",
-            "type": "definition",
+            "type": "function",
             "chapterNumber": 55,
-            "chapterTitle": "Urinary System"
+            "chapterTitle": "Urinary System",
+            "tags": [
+              "anatomy",
+              "urinary",
+              "bladder"
+            ]
           },
           {
             "id": "ch55-new-005",
-            "question": "Placeholder Question 5 for Urinary System",
-            "answer": "This is a placeholder answer for Urinary System. Content coming soon.",
+            "question": "How does the urinary system help maintain homeostasis?",
+            "answer": "By regulating blood volume, blood pressure, pH, and electrolyte balance.",
             "category": "Body Systems Primer",
-            "difficulty": "Basic",
-            "type": "definition",
+            "difficulty": "Advanced",
+            "type": "physiology",
             "chapterNumber": 55,
-            "chapterTitle": "Urinary System"
+            "chapterTitle": "Urinary System",
+            "tags": [
+              "physiology",
+              "urinary",
+              "homeostasis"
+            ]
           }
         ]
       },
@@ -7643,53 +7892,78 @@
         "flashcards": [
           {
             "id": "ch56-new-001",
-            "question": "Placeholder Question 1 for ALS Integration & Team Dynamics",
-            "answer": "This is a placeholder answer for ALS Integration & Team Dynamics. Content coming soon.",
-            "category": "Body Systems Primer",
+            "question": "What is the primary difference between BLS and ALS care?",
+            "answer": "BLS (Basic Life Support) focuses on non-invasive interventions (CPR, BVM, AED), while ALS (Advanced Life Support) includes invasive procedures like IVs, intubation, and medication administration.",
+            "category": "EMS Operations",
             "difficulty": "Basic",
-            "type": "definition",
+            "type": "comparison",
             "chapterNumber": 56,
-            "chapterTitle": "ALS Integration & Team Dynamics"
+            "chapterTitle": "ALS Integration & Team Dynamics",
+            "tags": [
+              "ems-operations",
+              "als",
+              "bls"
+            ]
           },
           {
             "id": "ch56-new-002",
-            "question": "Placeholder Question 2 for ALS Integration & Team Dynamics",
-            "answer": "This is a placeholder answer for ALS Integration & Team Dynamics. Content coming soon.",
-            "category": "Body Systems Primer",
-            "difficulty": "Basic",
-            "type": "definition",
+            "question": "How can an EMT assist an ALS provider with endotracheal intubation?",
+            "answer": "By pre-oxygenating the patient, assembling equipment, handing instruments to the paramedic, and confirming tube placement with waveform capnography.",
+            "category": "EMS Operations",
+            "difficulty": "Intermediate",
+            "type": "application",
             "chapterNumber": 56,
-            "chapterTitle": "ALS Integration & Team Dynamics"
+            "chapterTitle": "ALS Integration & Team Dynamics",
+            "tags": [
+              "ems-operations",
+              "airway",
+              "als-assist"
+            ]
           },
           {
             "id": "ch56-new-003",
-            "question": "Placeholder Question 3 for ALS Integration & Team Dynamics",
-            "answer": "This is a placeholder answer for ALS Integration & Team Dynamics. Content coming soon.",
-            "category": "Body Systems Primer",
-            "difficulty": "Basic",
+            "question": "What is Crew Resource Management (CRM) in EMS?",
+            "answer": "A system of utilizing all available resources (people, equipment, procedures) to promote safety and effective team performance.",
+            "category": "EMS Operations",
+            "difficulty": "Intermediate",
             "type": "definition",
             "chapterNumber": 56,
-            "chapterTitle": "ALS Integration & Team Dynamics"
+            "chapterTitle": "ALS Integration & Team Dynamics",
+            "tags": [
+              "ems-operations",
+              "team-dynamics",
+              "safety"
+            ]
           },
           {
             "id": "ch56-new-004",
-            "question": "Placeholder Question 4 for ALS Integration & Team Dynamics",
-            "answer": "This is a placeholder answer for ALS Integration & Team Dynamics. Content coming soon.",
-            "category": "Body Systems Primer",
+            "question": "What is the 'closed-loop communication' technique?",
+            "answer": "A communication method where the receiver repeats the message back to the sender to confirm it was heard and understood correctly.",
+            "category": "EMS Operations",
             "difficulty": "Basic",
             "type": "definition",
             "chapterNumber": 56,
-            "chapterTitle": "ALS Integration & Team Dynamics"
+            "chapterTitle": "ALS Integration & Team Dynamics",
+            "tags": [
+              "ems-operations",
+              "communication",
+              "teamwork"
+            ]
           },
           {
             "id": "ch56-new-005",
-            "question": "Placeholder Question 5 for ALS Integration & Team Dynamics",
-            "answer": "This is a placeholder answer for ALS Integration & Team Dynamics. Content coming soon.",
-            "category": "Body Systems Primer",
-            "difficulty": "Basic",
-            "type": "definition",
+            "question": "When transferring care to an ALS provider, what information must be conveyed?",
+            "answer": "Patient's chief complaint, vital signs, history, interventions performed, and response to treatment (MIST report or similar format).",
+            "category": "EMS Operations",
+            "difficulty": "Intermediate",
+            "type": "protocol",
             "chapterNumber": 56,
-            "chapterTitle": "ALS Integration & Team Dynamics"
+            "chapterTitle": "ALS Integration & Team Dynamics",
+            "tags": [
+              "ems-operations",
+              "communication",
+              "handover"
+            ]
           }
         ]
       }
