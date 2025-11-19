@@ -1,15 +1,166 @@
 // This is your Prisma schema file,
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
-// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
-// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
-
 generator client {
-  provider = "prisma-client"
-  output   = "../src/generated/prisma"
+  provider = "prisma-client-js"
 }
 
 datasource db {
-  provider = "postgresql"
+  provider = "sqlite"
   url      = env("DATABASE_URL")
+}
+
+model Chapter {
+  id          Int      @id @default(autoincrement())
+  number      Int      @unique
+  title       String
+  description String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  flashcards  Flashcard[]
+  
+  @@map("chapters")
+}
+
+model Category {
+  id          Int      @id @default(autoincrement())
+  name        String   @unique
+  description String?
+  color       String   @default("#3B82F6") // Default blue color
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  flashcards  Flashcard[]
+  
+  @@map("categories")
+}
+
+model Flashcard {
+  id               String   @id @default(cuid())
+  question         String
+  answer           String
+  difficulty       String   @default("Basic") // Basic, Intermediate, Advanced
+  certificationLevel String @default("EMT")   // EMT, AEMT, Paramedic
+  type            String   @default("definition") // definition, recognition, application, scenario, assessment
+  tags            String   @default("") // JSON string for tags
+  isActive        Boolean  @default(true)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  
+  // Relationships
+  chapterNumber   Int?
+  chapter         Chapter?  @relation(fields: [chapterNumber], references: [number])
+  categoryId      Int?
+  category        Category? @relation(fields: [categoryId], references: [id])
+  
+  // Study tracking
+  studySessionCards StudySessionCard[]
+  userProgress    UserProgress[]
+  
+  @@map("flashcards")
+}
+
+model StudySession {
+  id          String   @id @default(cuid())
+  startTime   DateTime @default(now())
+  endTime     DateTime?
+  mode        String   // "review", "test", "favorites", "spaced_repetition"
+  totalCards  Int      @default(0)
+  correctAnswers Int   @default(0)
+  completedAt DateTime?
+  
+  // Session settings (stored as JSON strings)
+  chapterFilter    String   @default("[]") // JSON array of chapter numbers
+  categoryFilter   String   @default("[]") // JSON array of category IDs
+  difficultyFilter String   @default("[]") // JSON array of difficulty levels
+  
+  flashcards StudySessionCard[]
+  
+  @@map("study_sessions")
+}
+
+model StudySessionCard {
+  id            String   @id @default(cuid())
+  sessionId     String
+  flashcardId   String
+  isCorrect     Boolean?
+  responseTime  Int?     // Time in milliseconds
+  attempts      Int      @default(1)
+  answeredAt    DateTime?
+  
+  session       StudySession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  flashcard     Flashcard    @relation(fields: [flashcardId], references: [id], onDelete: Cascade)
+  
+  @@unique([sessionId, flashcardId])
+  @@map("study_session_cards")
+}
+
+model UserProgress {
+  id              String   @id @default(cuid())
+  flashcardId     String
+  totalSeen       Int      @default(0)
+  totalCorrect    Int      @default(0)
+  consecutiveCorrect Int   @default(0)
+  lastSeen        DateTime @default(now())
+  nextReview      DateTime @default(now())
+  
+  // Spaced Repetition Algorithm fields
+  easeFactor      Float    @default(2.5)  // How easy the card is (1.3-3.0)
+  interval        Int      @default(1)    // Days until next review
+  repetitions     Int      @default(0)    // Number of successful repetitions
+  
+  // Performance tracking
+  averageResponseTime Int? // Average response time in milliseconds
+  difficultyRating    Int  @default(3) // 1-5 scale, user's perceived difficulty
+  
+  flashcard       Flashcard @relation(fields: [flashcardId], references: [id], onDelete: Cascade)
+  
+  @@unique([flashcardId])
+  @@map("user_progress")
+}
+
+model UserSettings {
+  id                    String   @id @default(cuid())
+  dailyGoal             Int      @default(20)     // Cards per day
+  reminderEnabled       Boolean  @default(true)
+  reminderTime          String   @default("19:00") // 24-hour format
+  autoPlayAudio         Boolean  @default(false)
+  showDifficulty        Boolean  @default(true)
+  showProgress          Boolean  @default(true)
+  preferredStudyMode    String   @default("review")
+  darkMode              Boolean  @default(false)
+  animationEnabled      Boolean  @default(true)
+  
+  // Spaced repetition settings
+  newCardsPerDay        Int      @default(10)
+  maxReviewsPerDay      Int      @default(50)
+  graduatingInterval    Int      @default(4)      // Days
+  easyBonus             Float    @default(1.3)
+  hardFactor            Float    @default(1.2)
+  
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime @updatedAt
+  
+  @@map("user_settings")
+}
+
+model AppStatistics {
+  id                String   @id @default(cuid())
+  totalCards        Int      @default(0)
+  totalSessions     Int      @default(0)
+  totalStudyTime    Int      @default(0) // Total time in minutes
+  averageAccuracy   Float    @default(0.0)
+  streak            Int      @default(0) // Current daily streak
+  longestStreak     Int      @default(0)
+  lastStudyDate     DateTime?
+  
+  // Chapter/Category performance
+  strongestChapter  Int?
+  weakestChapter    Int?
+  favoriteCategory  Int?
+  
+  updatedAt         DateTime @updatedAt
+  
+  @@map("app_statistics")
 }
