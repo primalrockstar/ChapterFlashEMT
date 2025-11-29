@@ -7,6 +7,8 @@
     "build": "prisma generate && next build",
     "start": "next start",
     "lint": "eslint",
+    "test:cards": "tsx scripts/test-flashcards.ts",
+    "fix:cards": "tsx scripts/fix-flashcards.ts",
     "db:seed": "tsx scripts/seed-emtb-cards.ts",
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate dev",
