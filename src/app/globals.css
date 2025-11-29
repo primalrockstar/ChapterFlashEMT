@@ -139,10 +139,12 @@
   }
 
   .preserve-3d {
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
   }
 
   .backface-hidden {
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
 
@@ -225,7 +227,6 @@
     -khtml-user-drag: none;
     -moz-user-drag: none;
     -o-user-drag: none;
-    user-drag: none;
     pointer-events: none;
   }
 
